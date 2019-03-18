@@ -1,4 +1,6 @@
 ﻿# Kimpossibilities
+ Kimia Heydari's Personal Blog
+ <i>Wire and Rewire</i>
 ## Contributors
 <ul>
   <li>Kimia Heydari</li>
