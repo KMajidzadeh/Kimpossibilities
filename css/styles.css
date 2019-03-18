@@ -1,0 +1,20 @@
+/* NAVBAR */
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+#main {
+margin-bottom: 0px;
+border-radius: 0px;
+}
+/*END NAVBAR */
+/*HEADER*/
+#rewire{
+    margin-top: 0px;
+}
+/*END HEADER*/
+/* FOOTER */
+/* Add a gray background color and some padding to the footer */
+footer {
+background-color: #f2f2f2;
+padding: 25px;
+}
+/*END FOOTER*/
