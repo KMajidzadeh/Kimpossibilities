@@ -6,8 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style id="jetpack-custom-fonts-css">.wf-active body, .wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"Lato",sans-serif}.wf-active blockquote{font-family:"Lato",sans-serif}.wf-active .site-description{font-family:"Lato",sans-serif}.wf-active .widget_rss .rss-date{font-family:"Lato",sans-serif}.wf-active .taxonomy-description{font-family:"Lato",sans-serif}.wf-active .cat-links, .wf-active .featured-post{font-family:"Lato",sans-serif}.wf-active .entry-meta{font-family:"Lato",sans-serif}.wf-active .site-main .portfolio-entry-meta{font-family:"Lato",sans-serif}.wf-active .comment-list .pingback .comment-body{font-family:"Lato",sans-serif}.wf-active .comment-meta-details{font-family:"Lato",sans-serif}.wf-active .no-comments{font-family:"Lato",sans-serif}.wf-active .wp-caption .wp-caption-dd, .wf-active .wp-caption .wp-caption-text{font-family:"Lato",sans-serif}.wf-active .gallery .gallery-item .gallery-caption{font-family:"Lato",sans-serif}.wf-active .tiled-gallery .tiled-gallery-caption{font-family:"Lato",sans-serif}.wf-active .entry-content > .jp-relatedposts .jp-relatedposts-post .jp-relatedposts-post-context, .wf-active .entry-sharedaddy > .jp-relatedposts .jp-relatedposts-post .jp-relatedposts-post-context, .wf-active .page-content > .jp-relatedposts .jp-relatedposts-post .jp-relatedposts-post-context, .wf-active .page-content > .sharedaddy .jp-relatedposts .jp-relatedposts-post .jp-relatedposts-post-context, .wf-active .entry-content > .sharedaddy .jp-relatedposts .jp-relatedposts-post .jp-relatedposts-post-context, .wf-active .entry-sharedaddy > .sharedaddy .jp-relatedposts .jp-relatedposts-post .jp-relatedposts-post-context{font-family:"Lato",sans-serif}.wf-active h1, .wf-active h2:not(.site-description), .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"Oswald",sans-serif;font-weight:300;font-style:normal}.wf-active h1{font-size:2.34em;font-style:normal;font-weight:300}.wf-active h2:not(.site-description){font-size:2.08em;font-style:normal;font-weight:300}.wf-active h3{font-size:1.82em;font-style:normal;font-weight:300}.wf-active h4{font-size:1.56em;font-style:normal;font-weight:300}.wf-active h5{font-size:1.3em;font-style:normal;font-weight:300}.wf-active h6{font-size:1.04em;font-style:normal;font-weight:300}.wf-active .site-title{font-family:"Oswald",sans-serif;font-size:4.68em;font-weight:300;font-style:normal}@media screen and (max-width: 767px){.wf-active .site-title{font-size:2.6em;font-style:normal;font-weight:300}}</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        WebFontConfig = {"google":{"families":["Oswald:300:latin,latin-ext","Lato:r,i,b,bi:latin,latin-ext"]}};
+        (function() {
+          var wf = document.createElement('script');
+          wf.src = 'https://s0.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+          })();
+      </script>
 </head>
 <body>
     <nav class="navbar navbar-inverse" id="main">
@@ -36,11 +48,11 @@
 
     <div class="jumbotron" id="rewire">
     <div class="container text-center">
-        <h1>Wire and Rewire</h1>      
+        <h1>wire and rewire</h1>      
     </div>
     </div>
     
-    <div class="container-fluid bg-3 text-center">    
+    <div class="container-fluid bg-3 text-center highlights">    
     <h3>Some of my Work</h3><br>
     <div class="row">
         <div class="col-sm-3">
@@ -62,7 +74,7 @@
     </div>
     </div><br>
 
-    <div class="container-fluid bg-3 text-center">    
+    <div class="container-fluid bg-3 text-center highlights">    
     <div class="row">
         <div class="col-sm-3">
         <p>Some text..</p>
@@ -83,8 +95,17 @@
     </div>
     </div><br><br>
 
-    <footer class="container-fluid text-center">
-    <p>Footer Text</p>
+    <footer class="container-fluid">
+        <div class="navbar-left" style="align-content: center;">
+            <p>&copy;<script type="text/javascript">
+                document.write(new Date().getFullYear());
+                </script> Kimia Heydari</p>
+            <p>Web Design by Kate Majidzadeh</p>
+        </div>
+        <div class="navbar-right social-bar">
+            <a href="mailto:kh2947@columbia.edu" class="fa fa-envelope"></a>
+            <a href="https://www.linkedin.com/in/kimiaheydari/" target="_blank" class="fa fa-linkedin"></a>
+        </div>
     </footer>
 
     </body>

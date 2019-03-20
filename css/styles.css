@@ -1,3 +1,7 @@
+*{
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
 /* NAVBAR */
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -9,12 +13,58 @@ border-radius: 0px;
 /*HEADER*/
 #rewire{
     margin-top: 0px;
+    font-size: x-large;
 }
 /*END HEADER*/
+/* COPY */
+.highlights{
+    width: 80%;
+}
+.link-box{
+
+}
+.post-box{
+
+}
+.image-box{
+    
+}
+/* END COPY */
 /* FOOTER */
-/* Add a gray background color and some padding to the footer */
 footer {
 background-color: #f2f2f2;
-padding: 25px;
+padding: 10px;
+/*color: white;*/
 }
+
+.social-bar{
+font-family: "Roboto";
+color: white;
+text-align: right;
+float: right;
+padding:15px;
+}
+.social-bar a{
+vertical-align: top;
+display: inline;
+}
+.social-bar .fa {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+font-size: 20px;
+width: 25px;
+height: 25px;
+text-align: center;
+text-decoration: none;
+color:darkgray;
+}
+.social-bar .fa:hover{  
+color: white;
+background-color: darkgray;
+}
+      
 /*END FOOTER*/
