@@ -13,18 +13,42 @@ border-radius: 0px;
 /*HEADER*/
 #rewire{
     margin-top: 0px;
+    margin-bottom: 0px;
     font-size: x-large;
 }
 /*END HEADER*/
 /* COPY */
+.highlights-row{
+    background-color: lightblue;
+    color: white;
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .highlights{
     width: 80%;
+}
+.boxes{
+    padding: 5px;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
 }
 .link-box{
 
 }
 .post-box{
-
+    font-family: 'Times New Roman', Times, serif;
+    background: lightblue;
+    color: white;
+    border: white 5px solid;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition-duration: 100ms;
+}
+.post-box:hover{
+    color: lightblue;
+    background-color: white;
+    border: lightblue 8px solid;
 }
 .image-box{
     
@@ -32,6 +56,7 @@ border-radius: 0px;
 /* END COPY */
 /* FOOTER */
 footer {
+margin-top: 0px;
 background-color: #f2f2f2;
 padding: 10px;
 /*color: white;*/
